@@ -1,0 +1,60 @@
+class Animal:
+    #constructor
+    def __init__(self, properties, function):
+        self.properties = properties
+        self.function = function
+
+class sadpek(Animal):
+    def __init__(self, properties, function):
+        self.properties = properties
+        self.function = function
+class sadbog(Animal):
+    def __init__(self, properties, function):
+        self.properties = properties
+        self.function = function
+class sadnum(Animal):
+    def __init__(self, properties, function):
+        self.properties = properties
+        self.function = function
+    
+class Place:
+    #constructor
+    def __init__(self, properties, function):
+        self.properties = properties
+        self.function = function
+class Foodland(Place):
+    def __init__(self, properties, function):
+        self.properties = properties
+        self.function = function
+class Funpark(Place):
+    def __init__(self, properties, function):
+        self.properties = properties
+        self.function = function
+
+        
+class People:
+    #constructor
+    def __init__(self, properties, function):
+        self.properties = properties
+        self.function = function
+    
+
+#สัตว์ปีก
+Bird = sadpek("มีปีก", "พรึบๆ")
+print("Bird",Bird.properties,Bird.function)
+#สัตว์บก
+Tiger = sadbog("สี่เท้า", "แฮร่!!!")
+print("Tiger",Tiger.properties,Tiger.function)
+#สัตว์น้ำ
+Dolphin = sadnum("มีครีบ", "เมี๊ยวววว")
+print("Dolphin",Dolphin.properties,Dolphin.function)
+#Place
+#Foodland
+KFC = Place("หน้าร้านสีแดง", "ขายไก่")
+print("KFC",KFC.properties,KFC.function)
+#Fun park
+FerrisWheel= Place("มีขนาดใหญ่", "พาขึ้นที่สูง")
+print("FerrisWheel",FerrisWheel.properties,FerrisWheel.function)
+#People
+Feeder = People("", "")
+print("Feeder",Feeder.properties,Feeder.function)
